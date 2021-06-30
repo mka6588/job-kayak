@@ -149,7 +149,7 @@ header {
 }
 
 .description {
-    background-color: pink;
+    /* background-color: pink; */
     flex-grow: 1;
     height: 105px;
     overflow: hidden;
@@ -183,10 +183,26 @@ header {
     margin-right: 15px;
 }
 
+/* .results {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+} */
+
 .jobNumber {
-    margin: 25px 25px;
+    margin: 25px 0;
+    font-size: 22px;
+    padding: 20px;
+    /* border: 1px solid;
+    border-radius: 10px; */
+    justify-content: center;
     display: flex;
-    flex-direction: column;
+    background-color:#1c1c24;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #222328;
+    color: purple;
 }
 
 @media screen and (max-width:930px){
